@@ -14,3 +14,20 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/item/{id}', function($id) {
+  return view('item');
+});
+
+Route::get('/category/{id}', function($id) {
+  return view('category');
+});
+
+Route::get('/search/{query}', function($query) {
+  return view('item');
+});
+
+
+Route::get('/admin', function() {
+  return view('admin');
+});

@@ -1,0 +1,89 @@
+.crumbs-box {
+  margin-bottom: 50px;
+}
+
+.crumbs-box p {
+  display: inline-block;
+}
+
+.crumbs-box .glyphicon {
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.crumbs-box .breadcrumb {
+  padding-left: 50px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.item-view {
+  margin-bottom: 50px;
+}
+
+.item-view .picture-box {
+  text-align: center;
+}
+
+.item-view .meta-box {
+  padding-left: 50px;
+}
+
+.item-view .meta-box p {
+  margin-bottom: 20px;
+}
+
+.item-view .picture-box img {
+  max-width: 100%;
+}
+
+.item-view .meta-box .glyphicon {
+  font-size: 12px;
+}
+
+.item-view .meta-box .title {
+  font-size: 24px;
+}
+
+.item-description .similar .item img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.item-description .similar .item .title,
+.item-description .similar .item .price {
+  font-weight: bold;
+}
+
+.item-description .similar .header {
+  padding-left: 15px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.item-description .description {
+    padding-left: 50px;
+}
+
+@media (max-width: 767px) {
+  .item-view .picture-box {
+    margin-bottom: 30px;
+  }
+
+  .item-description .similar .item {
+    margin-bottom: 30px;
+  }
+
+  .item-view .meta-box {
+    padding-left: 0;
+  }
+
+  .item-description .description {
+    padding-left: 15px;
+  }
+
+  .item-view .meta-box,
+  .item-description {
+    text-align: center;
+  }
+}
